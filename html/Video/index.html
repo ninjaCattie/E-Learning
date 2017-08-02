@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>视频</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/sm.min.css">
+		<link rel="stylesheet" type="text/css" href="../../css/otherview.css">
+	</head>
+
+	<body>
+		<div class="page-group">
+			<div class="page page-current" id="Video-index">
+				<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a class="icon icon-menu pull-left open-panel" data-panel='#panel-left-audio'></a>
+					<h1 class="title">视频中心</h1>
+				</header>
+				<!-- 左侧栏 -->
+				<div class="panel panel-left panel-cover theme-dark" id='panel-left-audio'>
+					<div class="bar bar-header-secondary">
+						<div class="searchbar">
+							<a class="searchbar-cancel close-panel">搜索</a>
+							<div class="search-input">
+								<label class="icon icon-search" for="search"></label>
+								<input type="search" id='search' placeholder='输入关键字...' />
+							</div>
+						</div>
+					</div>
+					<div class="tree">
+						<ul class="treenode">
+							<li>
+								<div class="node">分类<span class="icon icon-down"></span></div>
+								<ul class="branch" id="typeBranch">
+									<li data-type="all" class="active">全部</li>
+									<li data-type="0">读经教学视频</li>
+									<li data-type="1">蒙氏教学视频</li>
+									<li data-type="2">闪卡教学视频</li>
+								</ul>
+							</li><!--
+							<li>
+								<div class="node">更新时间<span class="icon icon-down"></div>
+	                            <ul class="branch">
+	                                <li>今天</li>
+	                                <li>一周内</li>
+	                                <li>一月内</li>
+	                                <li>三月内</li>
+	                                <li>一年内</li>
+	                                <li>更早</li>
+	                            </ul>
+                        	</li>-->
+                    	</ul>
+	                    <p><a href="#" class="button button-success close-panel" id="typeSearch">确定</a></p>
+	                    <p><a href="#" class="button button-dark close-panel">取消</a></p>
+	                </div>
+            	</div>
+	            <!-- 底部 -->
+	            <nav class="bar bar-tab">
+	                <a class="tab-item external" href="../Home/index.html">
+	                    <span class="icon icon-home"></span>
+						<span class="tab-label">首页</span>
+					</a>
+					<a class="tab-item external" href="../Audio/index.html">
+						<span class="icon icon-gift"></span>
+						<span class="tab-label">音频</span>
+					</a>
+					<a class="tab-item external active" href="../Video/index.html">
+						<span class="icon icon-computer"></span>
+						<span class="tab-label">视频</span>
+					</a>
+					<a class="tab-item external" href="../Sociaty/index.html">
+						<span class="icon icon-browser"></span>
+						<span class="tab-label">社区</span>
+					</a>
+					<a class="tab-item external" href="../Member/index.html">
+						<span class="icon icon-me"></span>
+						<span class="tab-label">我的</span>
+					</a>
+				</nav>
+				<div class="content">
+					<div class="themeimg">
+						<img src="../../img/videocenter.jpg">
+					</div>
+					<div class="videoList">
+						<ul class="vul"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type='text/javascript' src='../../js/zepto.js' charset='utf-8'></script>
+		<script src="../../js/bmob-min.js" type="text/javascript" charset="utf-8"></script>
+		<script type='text/javascript' src='../../js/sm.js' charset='utf-8'></script>
+		<script src="../../js/public.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

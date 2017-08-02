@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>音频详情</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/sm.min.css">
+		<link rel="stylesheet" type="text/css" href="../../css/otherview.css">
+	</head>
+
+	<body>
+		<div class="page-group">
+			<div class="page-current page" id="Audio-detail">
+				<audio id="audio">
+					<source src="">
+				</audio>
+				<header class="bar bar-nav">
+					<a class="button button-link button-nav pull-left back" href="javascript:history.go(-1);" external>
+						<span class="icon icon-left"></span>
+					</a>
+					<h1 class="title">音频-<span class="audioTitle"></span></h1>
+				</header>
+				<div class="content content-black">
+					<div class="music">
+						<div class="fengmian">
+							<img src="" id="music-img" alt="">
+						</div>
+						<div id="title"></div>
+						<div id="toolsBar">
+							<div class="cDiv">
+								<a href="" id="editComment" external>
+									<i class="commentIcon"></i>
+								</a>								
+							</div>
+							<div class="cDiv">
+								<i class="starIcon"></i>
+							</div>
+						</div>
+						<div class="jindu">
+							<span id="music-bar">
+							<span id="load-bar"></span>
+							<span id="played-bar"></span>
+							</span>
+							<span id="voice-bar">
+								<span id="voiced-bar"></span>
+							</span>
+							<div id="time">
+								<span id="current-time">0:00</span>
+								<span id="total-time">loading...</span>
+							</div>
+						</div>
+						<div class="controls">
+							<a id="play" href="javascript:;">
+								<i class="playIcon"></i>
+							</a>
+							<span id="jingyin" href="javascript:;">静音</span>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type='text/javascript' src='../../js/zepto.js' charset='utf-8'></script>
+		<script src="../../js/bmob-min.js" type="text/javascript" charset="utf-8"></script>
+		<script type='text/javascript' src='../../js/sm.js' charset='utf-8'></script>
+		<script src="../../js/public.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

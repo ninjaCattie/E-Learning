@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>修改登陆密码</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/sm.min.css">
+		<link rel="stylesheet" type="text/css" href="../../css/otherview.css">
+	</head>
+
+	<body>
+		<div class="page-group">
+			<div class="page page-current">
+				<!-- 首页 -->
+				<!-- 标题栏 -->
+				<header class="bar bar-nav">
+					<a class="button button-link button-nav pull-left back" href="javascript:history.go(-1);">
+						<span class="icon icon-left"></span>
+					</a>
+					<h1 class="title">修改登录密码</h1>
+				</header>
+				<div class="content">
+					<!--第一步-->
+					<div class="firArea">
+						<div class="list-block">
+							<ul>
+								<!-- Text inputs -->
+								<li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-title label">输入原密码</div>
+											<div class="item-input">
+												<input type="password" id="oriPwd" placeholder="请输入原密码">
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<p>
+							<a href="#" class="button" id="nextStep">下一步</a>
+						</p>
+					</div>
+					<!--第二步-->
+					<div class="secArea">
+						<div class="list-block">
+							<ul>
+								<!-- Text inputs -->
+								<li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-title label">设置新密码</div>
+											<div class="item-input">
+												<input type="password" id="newPwd" placeholder="请输入新密码">
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-title label">确认新密码</div>
+											<div class="item-input">
+												<input type="password" id="conNewPwd" placeholder="请确认新密码">
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<p>
+							<a href="javascript:;" class="button button-success" id="config">确定</a>
+						</p>
+						<p>
+							<a href="../Member/Detail.html" class="button button-light">取消</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../../js/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/sm.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(function() {
+				$.init();
+				//设置新密码
+				$(".secArea").hide();
+
+				$(document).on("click", "#nextStep", function() {
+					var $val = $("#oriPwd").val();
+					if($val == "") {
+						$.toast("原密码不能为空");
+					} else if($val != "123456") {
+						$.toast("输入错误");
+					} else {
+						$(".firArea").hide();
+						$(".secArea").show();
+					}
+				});
+
+				$(document).on("click", "#config", function() {
+					var $val1 = $("#newPwd").val();
+					var $val2 = $("#conNewPwd").val();
+					if($val1 == "") {
+						$.toast("请输入新密码");
+					} else if($val2 == "") {
+						$.toast("请确认新密码");
+					} else if($val1 != $val2) {
+						$.toast("两次密码输入不相同");
+					} else {
+						$.toast("密码修改成功");
+						$.showPreloader();
+						setTimeout(function() {
+							$.hidePreloader();
+							location.href="../Member/Detail.html";
+						}, 2000);
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,838 @@
+a {
+	color: #333;
+}
+
+
+/* -------------首页------------- */
+
+.content {
+	background: #fff;
+}
+
+.swiper-container-index {
+	margin-bottom: 1rem;
+}
+
+.list-block {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	display: block;
+}
+
+.swiper-container-index {
+	width: 100%;
+	height: 7rem;
+}
+
+.swiper-container-index a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.swiper-container-index img {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-pagination-index {
+	bottom: 10px;
+}
+
+.videoList .vtitle {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 14px;
+	color: #333;
+}
+
+.videoList .vtitle .left {
+	float: left;
+	height: 100%;
+}
+
+.videoList .vtitle .left .bluebar {
+	float: left;
+	width: 0.12rem;
+	height: 100%;
+	background: #0894ec;
+}
+
+.videoList .vtitle .left .vmain {
+	float: left;
+	margin-left: 0.12rem;
+}
+
+.videoList .vtitle .right {
+	float: right;
+}
+
+.videoList ul {
+	overflow: hidden;
+}
+
+.videoList .vul li {
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+}
+
+.videoList .vul li .vImg {
+	width: 100%;
+	height: 4.5rem;
+	overflow: hidden;
+	margin-bottom: 0.3rem;
+	position: relative;
+}
+
+.videoList .vul li .vImg img {
+	width: 100%;
+	height: 100%;
+}
+
+.videoList li .watchArea {
+	position: absolute;
+	top: 0.2rem;
+	right: 0.2rem;
+	color: #fff;
+	font-size: 12px;
+}
+
+.videoList li .watchArea .watchIcon {
+	float: left;
+	width: 1.2rem;
+	height: 0.8rem;
+	background: url(../img/watch.svg) no-repeat center center;
+	background-size: contain;
+}
+
+.videoList li .watchArea .listenIcon {
+	float: left;
+	width: 1.2rem;
+	height: 0.8rem;
+	background: url(../img/listen.svg) no-repeat center center;
+	background-size: contain;
+}
+
+.videoList .vul li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.videoList .aul li {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.videoList .aul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.videoList .aul li .aImg {
+	width: 100%;
+	height: 4.5rem;
+	position: relative;
+}
+
+.videoList .aul li .aImg img {
+	width: 100%;
+	height: 100%;
+}
+
+.videoList li .vTitle {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	color: #333;
+}
+
+.videoList li .vPlayer {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	color: #666;
+}
+
+
+/* -------------首页end------------- */
+
+
+/* -------------音频中心------------- */
+
+#panel-left-audio .bar {
+	top: 0;
+	position: relative;
+}
+
+#panel-left-audio .tree {
+	margin: 0 0.6rem;
+}
+
+#panel-left-audio .treenode>li {
+	margin-bottom: 0.48rem;
+}
+
+#panel-left-audio .tree .node .icon {
+	margin-left: 0.32rem;
+}
+
+#panel-left-audio .tree .branch {
+	margin: 0 0.6rem;
+	display: none;
+}
+
+#panel-left-audio .tree .branch li.active {
+	color: #4cd964;
+}
+
+.content .themeimg {
+	width: 100%;
+	height: 8rem;
+}
+
+.content .themeimg img {
+	width: 100%;
+	height: 8rem;
+}
+
+.content .audioUl {
+	margin-left: 0.48rem;
+	margin-right: 0.48rem;
+}
+
+.content .audioUl li {
+	border-bottom: 1px dashed #666;
+	overflow: hidden;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.content .audioUl li a>div {
+	float: left;
+}
+
+.content .audioUl li .atitle {
+	font-size: 16px;
+	color: #333;
+	max-width: 8em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content .audioUl li .player {
+	margin: 0 0.32rem;
+	font-size: 14px;
+	color: #666;
+}
+
+.content .audioUl li i {
+	float: left;
+	height: 1.5rem;
+	width: 0.6rem;
+	background-size: contain;
+}
+.content .audioUl li .hotIcon{
+	float: right;
+	background: url(../img/hotIcon.svg) no-repeat center center;
+	background-size: contain;
+	width: 1rem;
+	margin-right: 0.1rem;
+}
+.content .audioUl li .time {
+	float: right;
+	color: #999;
+	font-size: 16px;
+}
+
+
+/* -------------音频中心end------------- */
+
+
+/* -------------登录 注册------------- */
+
+.forgetpwd {
+	text-align: right;
+	margin-top: 1rem;
+	font-size: 14px;
+}
+
+
+/* -------------登录 注册end------------- */
+
+
+/* -------------个人中心首页------------- */
+
+.userpicArea {
+	background: #FFF;
+	overflow: hidden;
+	padding-top: 1rem;
+}
+
+.userpicArea .userpic {
+	height: 4rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.userpicArea .userpic img {
+	width: 4rem;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.userpicArea .username {
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	color: #333;
+	font-size: 14px;
+}
+
+
+/* -------------个人中心首页end------------- */
+
+
+/* -------------个人中心详情页------------- */
+
+.item-img .item-inner {
+	line-height: 4rem;
+}
+
+.item-img .item-after {
+	max-height: 3rem;
+}
+
+.item-img .item-after .detail_userimg {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.item-img .item-after .detail_userimg img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* -------------个人中心详情页end------------- */
+
+
+/* -------------修改密码------------- */
+
+.list-block ul li a {
+	display: block;
+	width: 100%;
+}
+
+
+/* -------------修改密码end------------- */
+
+
+/* -------------我收藏的------------- */
+
+.days .dayscon .daytime {
+	background: #fff;
+	padding: 0.48rem;
+	font-size: 20px;
+}
+
+
+/* -------------我收藏的end------------- */
+
+
+/* -------------视频详情页------------- */
+
+.videoIntro {
+	overflow: hidden;
+	background: #fff;
+	padding: 0 0.48rem;
+	margin-bottom: 0.3rem;
+}
+
+.videoIntro .videoTitle {
+	font-size: 18px;
+}
+
+.videoIntro .videoinfo {
+	margin: 1rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	font-size: 14px;
+}
+
+.videoIntro .videoline {
+	overflow: hidden;
+}
+
+.videoIntro .videoline span {
+	font-size: 14px;
+}
+
+.videoIntro .videoline span:nth-child(1) {
+	float: left;
+}
+
+.videoIntro .videoline span:nth-child(2) {
+	float: right;
+}
+
+.commentArea {
+	background: #fff;
+	margin-bottom: 2.8rem;
+}
+
+.commentArea .commentTitle {
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 14px;
+	padding: 0 0.48rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.commentArea .commentTitle i {
+	float: left;
+	height: 3rem;
+	width: 1.2rem;
+	background: url(../img/editCom.svg) no-repeat center center;
+	background-size: contain;
+	margin-right: 0.2rem;
+}
+
+.commentArea .commentTitle span {
+	float: left;
+	line-height: 3rem;
+	color: #333;
+}
+
+.commentUl {
+	padding: 0;
+	margin: 0;
+}
+
+.commentUl li {
+	border-bottom: 1px solid #e5e5e5;
+	background: #fff;
+}
+
+.commentUl li .firLine {
+	height: 2rem;
+	color: #333;
+	font-size: 12px;
+	padding: 0.48rem 0.48rem 0;
+}
+
+.commentUl li .firLine .userImg {
+	width: 1.5rem;
+	height: 1.5rem;
+	overflow: hidden;
+	border-radius: 50%;
+	float: left;
+	margin-right: 1rem;
+}
+
+.commentUl li .firLine .userImg img {
+	width: 100%;
+	height: 100%;
+}
+
+.commentUl li .firLine .right {
+	float: left;
+}
+
+.commentUl li .firLine .right div {
+	height: 50%;
+	line-height: 1rem;
+}
+
+.commentUl li .firLine .right .commenttime {
+	color: #666;
+}
+
+.commentcon {
+	padding: 0.48rem;
+	font-size: 13px;
+}
+
+.editComment {
+	position: relative;
+	color: #d81e06;
+	font-size: 14px;
+	height: 2.2rem;
+	border-bottom: 1px solid #e5e5e5;
+	text-align: center;
+}
+
+.editComment .editcon {
+	display: inline-block;
+}
+
+.editComment .editcon a {
+	color: #d81e06;
+}
+
+.editComment .editcon i {
+	float: left;
+	height: 2.2rem;
+	width: 1.2rem;
+	background: url(../img/commentIcon.svg) no-repeat center center;
+	background-size: contain;
+	margin-right: 0.3rem;
+}
+
+.editComment .editcon span {
+	float: left;
+	height: 2.2rem;
+	line-height: 2.2rem;
+}
+
+.bar-videode {
+	text-align: center;
+}
+
+.bar-videode .videodecon {
+	display: inline-block;
+}
+
+.bar-videode .videodecon .starIcon {
+	height: 2.5rem;
+	width: 1.2rem;
+	background: url(../img/star.svg) no-repeat center center;
+	background-size: contain;
+	float: left;
+	margin-right: 0.3rem;
+}
+
+.bar-videode .videodecon .starIcon.active {
+	background: url(../img/starred.svg) no-repeat center center;
+	background-size: contain;
+}
+
+.bar-videode .videodecon span {
+	font-size: 14px;
+	color: #333;
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+
+
+/* -------------视频详情页end------------- */
+
+
+/* -------------评论页------------- */
+
+.bar-tab-comment {
+	padding: 0 0.48rem;
+	overflow: hidden;
+}
+
+.bar-tab-comment input {
+	width: 70%;
+	height: 2rem;
+	margin-top: 0.25rem;
+	background: none;
+	border: none;
+	outline: none;
+	border: 1px solid #e5e5e5;
+	border-radius: 25px;
+	float: left;
+	background-color: #fff;
+	text-indent: 1em;
+	font-size: 12px;
+}
+
+.bar-tab-comment .cancel {
+	font-size: 14px;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: #333;
+	margin-left: 5%;
+	float: left;
+}
+
+.bar-tab-comment .cancel.green {
+	color: #4cd964;
+}
+
+
+/* -------------评论页end------------- */
+
+
+/* -------------搜索页------------- */
+
+.historyUl li {
+	border-bottom: 1px dashed #999;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow-style: hidden;
+	text-overflow: ellipsis;
+}
+
+.historyUl {
+	padding: 0 0.48rem;
+}
+
+.vt {
+	background: #fff;
+	padding: 0.48rem 0.48rem;
+}
+
+
+/* -------------搜索页end------------- */
+
+
+/*---------------音频详情页--------------------*/
+
+.jindu {
+	position: absolute;
+	bottom: 80px;
+	left: 0;
+	width: 100%;
+}
+
+#music-bar {
+	width: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#voice-bar {
+	width: 15%;
+}
+
+#time {
+	width: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 0;
+}
+
+.controls {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.music {
+	float: left;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	border-radius: 3px;
+}
+
+.music {
+	width: 100%;
+	height: 100%;
+}
+
+#music-bar {
+	display: inline-block;
+	width: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 4px;
+	background: #6d6d6d;
+	border-radius: 4px;
+	position: relative;
+}
+
+#voice-bar {
+	display: inline-block;
+	width: 15%;
+	height: 4px;
+	background: #6d6d6d;
+	border-radius: 4px;
+	position: relative;
+}
+
+#played-bar,
+#voiced-bar {
+	display: inline-block;
+	height: 4px;
+	float: left;
+	border-radius: 4px;
+	background: -webkit-linear-gradient(left, #fec514, #EE4000);
+	background: linear-gradient(left, #fec514, #EE4000);
+	position: absolute;
+	z-index: 2;
+	transition: all 0.5s;
+}
+
+#played-bar:after,
+#voiced-bar:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	right: -2px;
+	top: -2px;
+}
+
+#load-bar {
+	display: inline-block;
+	height: 4px;
+	float: left;
+	border-radius: 4px;
+	background: #a2a2a2;
+	position: absolute;
+	z-index: 1;
+	transition: all 3s;
+	/* 进度加载动画 */
+}
+
+#time {
+	font-size: 12px;
+	overflow: hidden;
+	width: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 0;
+}
+
+#time span:nth-child(1) {
+	float: left;
+}
+
+#time span:nth-child(2) {
+	float: right;
+}
+
+#play {
+	font-size: 14px;
+	transition: all 0.3s;
+}
+
+.controls a {
+	display: inline-block;
+	color: #000;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-right: 5px;
+	border-radius: 50%;
+	background: #fec514;
+}
+
+#jingyin {
+	width: 30px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	background: transparent;
+	color: #fec514;
+	margin: 0 20px;
+	position: absolute;
+	top: 16px;
+}
+
+.fengmian {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	text-align: center;
+}
+
+.fengmian img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+
+#title {
+	position: absolute;
+	bottom: 115px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.content-black {
+	background: linear-gradient(90deg, #7E898F 0%, #636C75 100%), radial-gradient(at top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.55) 100%), radial-gradient(at top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.08) 63%);
+}
+
+#toolsBar {
+	position: absolute;
+	bottom: 140px;
+	width: 100%;
+}
+
+#toolsBar div {
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+
+#toolsBar div i {
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+#toolsBar div .commentIcon {
+	background: url(../img/comment.svg) no-repeat center center;
+	background-size: contain;
+}
+
+#toolsBar div .starIcon {
+	background: url(../img/starwhite.svg) no-repeat center center;
+	background-size: contain;
+}
+
+#toolsBar div .starIcon.active {
+	background: url(../img/starred.svg) no-repeat center center;
+	background-size: contain;
+}
+
+#play .playIcon {
+	width: 20px;
+	height: 20px;
+	margin: 15px;
+	display: block;
+	background: url(../img/startIconB.svg) no-repeat center center;
+	background-size: contain;
+}
+
+#play .pauseIcon {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	display: block;
+	background: url(../img/pauseIconB.svg) no-repeat center center;
+	background-size: contain;
+}
+/*---------------音频详情页end---------------------------*/
+
+
+/*---------------社区---------------------------*/
+
+.buttons-half-row {
+	width: 46%;
+	margin: 0 auto;
+}
+/*---------------社区end---------------------------*/
